@@ -203,5 +203,5 @@ for episodes in range(15000):
     if episodes % 10 == 0:
         target.load_state_dict(policy.state_dict())
         
-torch.save(policy.state_dict(), 'Trained_models/model_15000.pth')    
+torch.save(policy.state_dict(), 'model_15000.pth')    
 pygame.quit()
