@@ -1,0 +1,3 @@
+pygame (graphics library for 2d game dev)
+pytorch(deep_learning framework for creating neural networks)
+numpy
