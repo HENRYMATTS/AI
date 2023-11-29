@@ -112,7 +112,7 @@ output_size = 3
 #initialise all the classes
 #  PolicyNet
 policy = PolicyNet(input_size,output_size)
-policy.load_state_dict(torch.load('Trained_models/model_10000.pth'))
+policy.load_state_dict(torch.load('model_10000.pth'))
 policy.eval()  # Set the model to evaluation mode
 
 env = FrozenLake()
